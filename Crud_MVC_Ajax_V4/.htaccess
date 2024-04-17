@@ -1,0 +1,9 @@
+######REGLA PARA ACCESO A DIRECTORIOS######
+
+Options All -Indexes
+
+#######ACTIVACION DEL REWRITE#####
+
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z0-9/]+$) index.php?action=$1
